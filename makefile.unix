@@ -118,7 +118,7 @@ HOST_CC = $(CC)
 
 # If you want to use whatever CFLAGS are currently set in your 
 # environment, then comment this out.
-CFLAGS =
+#CFLAGS =
 
 
 ###########################################################################
@@ -127,7 +127,7 @@ CFLAGS =
 ###########################################################################
 
 # GCC on x86
-CFLAGS = -O2
+#CFLAGS = -O2
 
 # GCC on x86 with some optimizations
 # CFLAGS = -O2 -mtune=i686 -fomit-frame-pointer -fstrength-reduce -ffast-math
@@ -576,7 +576,7 @@ SYSCONFDIR = $(XMAMEROOT)
 ###########################################################################
 
 # i386, GNU asm
-MY_CPU = i386
+MY_CPU = arm
 
 # i386, no asm -- needed for the Intel C++ compiler, which does not fully
 # understand GCC's inline assembly syntax, though you may still enable 
